@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+	#login_form{
+		margin:75px auto;
+		padding:10px 30px;
+		width:30%;
+		border: 1px solid;
+		background-color: white;
+		
+	}
+	h1{
+	margin: 50PX auto;
+	}
+	.form-group{
+		margin: 25px auto;
+	}
+	button,a {
+	display:inline-block;
+	margin: 30px auto;
+	width: 25%;
+	}
+	body{
+		background:url("../image/back.gif") repeat;
+	}
