@@ -14,6 +14,7 @@ public class MessageDaoImpl extends HibernateDaoSupport implements MessageDao{
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.out.println("添加失败");
+			System.out.println();
 			return false;
 		}
 	}
