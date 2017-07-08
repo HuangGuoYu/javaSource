@@ -39,5 +39,6 @@ public class SimpleRecurtion {
 //		printN(10);
 		System.out.println(addAll(new int []{1,2,3,4,5,6},0));
 		System.out.println(isSameString("huang", "huang1"));
+		
 	}
 }
