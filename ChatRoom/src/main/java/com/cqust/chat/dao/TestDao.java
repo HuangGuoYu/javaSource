@@ -10,6 +10,7 @@ public class TestDao extends HibernateDaoSupport{
 	@Transactional
 	public void insert(Student s){
 		this.getHibernateTemplate().saveOrUpdate(s);
+		
 	}
 	
 	
